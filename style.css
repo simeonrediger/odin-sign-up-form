@@ -121,6 +121,10 @@ section.form {
   box-shadow: 0 2px 4px var(--shadow);
 }
 
+.returning-user-note {
+  font-size: 0.875rem;
+}
+
 p {
   margin-block: 1rem;
 }
