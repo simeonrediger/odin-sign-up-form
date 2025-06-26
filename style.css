@@ -26,6 +26,7 @@ html {
 
   --bg: var(--white-darker-1);
   --fg: var(--black);
+  --header-bg: #0b0b0b80;
   --header-fg: var(--white);
   --form-bg: var(--white);
   --link: var(--green);
@@ -45,6 +46,8 @@ body {
 
 header {
   color: var(--header-fg);
+  display: flex;
+  flex-direction: column;
   min-width: 37vw;
 
   background-image: url('images/fern.jpg');
@@ -53,8 +56,28 @@ header {
   background-position: -65px;
 }
 
+.logo-and-title {
+  background-color: var(--header-bg);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 180px;
+  margin-bottom: auto;
+  padding: 1rem;
+}
+
+.photo-credit {
+  font-size: 0.75rem;
+  opacity: 65%;
+  padding: 1rem;
+  text-align: center;
+}
+
 .title {
   font-family: 'Norse', sans-serif;
+  font-size: 5rem;
 }
 
 header a {
