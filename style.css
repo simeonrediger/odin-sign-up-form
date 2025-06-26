@@ -20,6 +20,12 @@ a {
 }
 /* End of Reset */
 
+@font-face {
+  font-family: 'Norse';
+  src: url('fonts/norse-bold.otf') format('opentype');
+  unicode-range: U+0044, U+0049, U+004E, U+004F;
+}
+
 html {
   --bg: #f9fafb;
   --fg: #0b0b0b;
@@ -47,4 +53,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -65px;
+}
+
+.title {
+  font-family: 'Norse', sans-serif;
 }
