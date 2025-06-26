@@ -119,10 +119,27 @@ section.description {
 section.form {
   background-color: var(--form-bg);
   box-shadow: 0 2px 4px var(--shadow);
+  padding-bottom: 2rem;
 }
 
 p {
   margin-block: 1rem;
+}
+
+form {
+  column-gap: 4rem;
+  row-gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 30rem;
+}
+
+label, input {
+  display: block;
+}
+
+input {
+  width: 12rem;
 }
 
 .create-account-button {
