@@ -29,3 +29,16 @@ html {
   --input-border: #e5e7eb;
   --error: #a82222;
 }
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+}
+
+header {
+  min-width: 37vw;
+}
