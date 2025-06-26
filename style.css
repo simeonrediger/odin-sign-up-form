@@ -22,6 +22,7 @@ html {
   --white-darker-1: #f9fafb;
   --white-darker-2: #e5e7eb;
   --light-gray: #ccc;
+  --gray: #79828c;
   --black-transparent: #0b0b0b80;
   --green: #596d48;
   --red: #a82222;
@@ -36,6 +37,7 @@ html {
   --link: var(--green);
   --button-bg: var(--green);
   --button-fg: var(--white-darker-1);
+  --label-fg: var(--gray);
   --input-border: var(--white-darker-2);
   --error: var(--red);
 }
@@ -136,6 +138,14 @@ form {
 
 label, input {
   display: block;
+}
+
+label {
+  color: var(--label-fg);
+  font-size: 0.75rem;
+  font-variant: all-small-caps;
+  font-weight: bold;
+  letter-spacing: 0.125ch;
 }
 
 input {
