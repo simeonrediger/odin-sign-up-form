@@ -1,4 +1,3 @@
-/* Reset */
 *,
 *::before,
 *::after {
@@ -10,15 +9,6 @@
 body {
   font-family: sans-serif;
 }
-
-ul li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-/* End of Reset */
 
 @font-face {
   font-family: 'Norse';
