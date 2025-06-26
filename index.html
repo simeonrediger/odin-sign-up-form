@@ -37,32 +37,38 @@
         <form action='' method='post' id='sign-up-form'>
           <div class='form-component'>
             <label for='first-name'>First name</label>
-            <input name='first-name' id='first-name' type='text'>
+            <input name='first-name' id='first-name' type='text' required>
           </div>
-          
+
           <div class='form-component'>
             <label for='last-name'>Last name</label>
-            <input name='last-name' id='last-name' type='text'>
+            <input name='last-name' id='last-name' type='text' required>
           </div>
-          
+
           <div class='form-component'>
             <label for='email'>Email</label>
-            <input name='email' id='email' type='email'>
+            <input name='email' id='email' type='email' required>
           </div>
-          
+
           <div class='form-component'>
             <label for='phone'>Phone number</label>
             <input name='phone' id='phone' type='tel'>
           </div>
-          
+
           <div class='form-component'>
             <label for='password'>Password</label>
-            <input name='password' id='password' type='password'>
+            <input name='password' id='password' type='password'
+              required minlength='8'
+              pattern='(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[a-zA-Z\d!@#$%^&*]+'
+            >
           </div>
-          
+
           <div class='form-component'>
             <label for='confirm-password'>Confirm password</label>
-            <input name='confirm-password' id='confirm-password' type='password'>
+            <input name='confirm-password' id='confirm-password' type='password'
+              required minlength='8'
+              pattern='(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[a-zA-Z\d!@#$%^&*]+'
+            >
           </div>
         </form>
       </section>
