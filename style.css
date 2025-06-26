@@ -89,8 +89,38 @@ header a {
   color: inherit;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 main a {
   color: var(--link);
   font-weight: bold;
   text-decoration: none;
+}
+
+section {
+  margin-block: 1rem;
+  padding-inline: 2rem;
+}
+
+section.description,
+section.actions {
+  background-color: var(--main-bg);
+}
+
+section.description {
+  font-size: 1.0625rem;
+  font-weight: bold;
+}
+
+section.form {
+  background-color: var(--form-bg);
+  box-shadow: 0 2px 4px var(--shadow);
+}
+
+p {
+  margin-block: 1rem;
 }
