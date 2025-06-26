@@ -139,6 +139,8 @@ label, input {
 }
 
 input {
+  border: 1px solid var(--input-border);
+  border-radius: 0.25rem;
   width: 12rem;
 }
 
