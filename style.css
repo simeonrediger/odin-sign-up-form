@@ -40,6 +40,9 @@ html {
   --label-fg: var(--gray);
   --input-border: var(--white-darker-2);
   --error: var(--red);
+
+  --form-column-gap: 4rem;
+  --input-width: 20rem;
 }
 
 body {
@@ -75,7 +78,6 @@ header {
 }
 
 .photo-credit {
-  font-size: 0.75rem;
   opacity: 65%;
   padding: 1rem;
   text-align: center;
@@ -83,7 +85,7 @@ header {
 
 .title {
   font-family: 'Norse', sans-serif;
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 header a {
@@ -113,13 +115,13 @@ section.actions {
 }
 
 section.description {
-  font-size: 1.0625rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 section.form {
   background-color: var(--form-bg);
-  box-shadow: 0 2px 4px var(--shadow);
+  box-shadow: 0 2px 8px var(--shadow);
   padding-bottom: 2rem;
 }
 
@@ -128,15 +130,16 @@ p {
 }
 
 section.form > p {
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 form {
-  column-gap: 4rem;
+  column-gap: var(--form-column-gap);
   row-gap: 1rem;
   display: flex;
   flex-wrap: wrap;
-  max-width: 30rem;
+  max-width: calc(2 * var(--input-width) + var(--form-column-gap));
 }
 
 label, input {
@@ -145,29 +148,25 @@ label, input {
 
 label {
   color: var(--label-fg);
-  font-size: 0.75rem;
   font-variant: all-small-caps;
-  font-weight: bold;
-  letter-spacing: 0.125ch;
 }
 
 input {
   border: 1px solid var(--input-border);
   border-radius: 0.25rem;
-  width: 12rem;
+  font-size: inherit;
+  padding: 0.375rem;
+  width: var(--input-width);
 }
 
 .create-account-button {
   background-color: var(--button-bg);
   border: none;
   border-radius: 0.5rem;
-  box-shadow: 2px 2px 2px var(--shadow);
+  box-shadow: 2px 2px 8px var(--shadow);
   color: var(--button-fg);
   font-weight: bold;
-  padding-block: 0.5rem;
-  padding-inline: 2rem;
-}
-
-.returning-user-note {
-  font-size: 0.875rem;
+  font-size: inherit;
+  padding-block: 1rem;
+  padding-inline: 3rem;
 }
