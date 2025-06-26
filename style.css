@@ -56,3 +56,13 @@ header {
 .title {
   font-family: 'Norse', sans-serif;
 }
+
+header a {
+  color: inherit;
+}
+
+main a {
+  color: var(--link);
+  font-weight: bold;
+  text-decoration: none;
+}
