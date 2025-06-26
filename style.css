@@ -21,16 +21,21 @@ html {
   --white: #ffffff;
   --white-darker-1: #f9fafb;
   --white-darker-2: #e5e7eb;
+  --light-gray: #ccc;
+  --black-transparent: #0b0b0b80;
   --green: #596d48;
   --red: #a82222;
 
   --bg: var(--white-darker-1);
   --fg: var(--black);
-  --header-bg: #0b0b0b80;
+  --shadow: var(--light-gray);
+  --header-bg: var(--black-transparent);
   --header-fg: var(--white);
+  --main-bg: var(--white-darker-1);
   --form-bg: var(--white);
   --link: var(--green);
   --button-bg: var(--green);
+  --button-fg: var(--white-darker-1);
   --input-border: var(--white-darker-2);
   --error: var(--red);
 }
