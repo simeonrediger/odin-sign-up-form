@@ -124,3 +124,14 @@ section.form {
 p {
   margin-block: 1rem;
 }
+
+.create-account-button {
+  background-color: var(--button-bg);
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 2px var(--shadow);
+  color: var(--button-fg);
+  font-weight: bold;
+  padding-block: 0.5rem;
+  padding-inline: 2rem;
+}
