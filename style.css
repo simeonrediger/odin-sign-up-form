@@ -109,6 +109,10 @@ main a {
   text-decoration: none;
 }
 
+main a:hover {
+  text-decoration: underline;
+}
+
 section {
   margin-block: 1rem;
   padding-inline: 2rem;
