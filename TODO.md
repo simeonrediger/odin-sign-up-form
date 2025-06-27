@@ -1,4 +1,2 @@
-- Password inputs should be invalid if they contain an invalid password
-- Style submit button hover and active states
 - Style login link hover state
 - Cap width of description section
