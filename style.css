@@ -17,7 +17,7 @@ body {
 }
 
 html {
-  --black: #0b0b0b;
+  --dark-gray: #444;
   --white: #ffffff;
   --white-darker-1: #f9fafb;
   --white-darker-2: #e5e7eb;
@@ -30,7 +30,7 @@ html {
   --blue: #0000ff;
 
   --bg: var(--white-darker-1);
-  --fg: var(--black);
+  --fg: var(--dark-gray);
   --shadow: var(--light-gray);
   --header-bg: var(--black-transparent);
   --header-fg: var(--white);
