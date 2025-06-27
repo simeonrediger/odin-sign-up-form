@@ -37,28 +37,35 @@
         <form action='' method='post' id='sign-up-form'>
           <div class='form-component'>
             <label for='first-name'>First name</label>
-            <input name='first-name' id='first-name' type='text' required>
+            <input name='first-name' id='first-name' type='text' required
+              placeholder='First'
+            >
           </div>
 
           <div class='form-component'>
             <label for='last-name'>Last name</label>
-            <input name='last-name' id='last-name' type='text' required>
+            <input name='last-name' id='last-name' type='text' required
+              placeholder='Last'
+            >
           </div>
 
           <div class='form-component'>
             <label for='email'>Email</label>
-            <input name='email' id='email' type='email' required>
+            <input name='email' id='email' type='email' required
+              placeholder='your@email.com'
+            >
           </div>
 
           <div class='form-component'>
             <label for='phone'>Phone number</label>
-            <input name='phone' id='phone' type='tel'>
+            <input name='phone' id='phone' type='tel' placeholder='12345678910'
+            >
           </div>
 
           <div class='form-component'>
             <label for='password'>Password</label>
             <input name='password' id='password' type='password'
-              required minlength='8'
+              placeholder='' required minlength='8'
               pattern='(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[a-zA-Z\d!@#$%^&*]+'
             >
           </div>
@@ -66,7 +73,7 @@
           <div class='form-component'>
             <label for='confirm-password'>Confirm password</label>
             <input name='confirm-password' id='confirm-password' type='password'
-              required minlength='8'
+              placeholder='' required minlength='8'
               pattern='(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[a-zA-Z\d!@#$%^&*]+'
             >
           </div>
