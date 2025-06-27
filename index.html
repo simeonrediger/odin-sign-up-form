@@ -38,14 +38,14 @@
           <div class='form-component'>
             <label for='first-name'>First name</label>
             <input name='first-name' id='first-name' type='text' required
-              placeholder='First' pattern='.*\S.*'
+              placeholder='First' pattern='.*\S.*' autocomplete='given-name'
             >
           </div>
 
           <div class='form-component'>
             <label for='last-name'>Last name</label>
             <input name='last-name' id='last-name' type='text' required
-              placeholder='Last' pattern='.*\S.*'
+              placeholder='Last' pattern='.*\S.*' autocomplete='family-name'
             >
           </div>
 
@@ -54,13 +54,14 @@
             <input name='email' id='email' type='email' required
               placeholder='your@email.com'
               pattern='[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}'
+              autocomplete='email'
             >
           </div>
 
           <div class='form-component'>
             <label for='phone'>Phone number</label>
             <input name='phone' id='phone' type='tel'
-              placeholder='+1 (234) 567-8910'
+              placeholder='+1 (234) 567-8910' autocomplete='tel'
             >
           </div>
 
@@ -69,7 +70,7 @@
             <input name='password' id='password' type='password'
               placeholder='••••••••' required minlength='8'
               pattern='(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[a-zA-Z\d!@#$%^&*]+'
-              aria-describedby='password-criteria'
+              autocomplete='new-password' aria-describedby='password-criteria'
             >
           </div>
 
@@ -78,7 +79,7 @@
             <input name='confirm-password' id='confirm-password' type='password'
               placeholder='••••••••' required minlength='8'
               pattern='(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[a-zA-Z\d!@#$%^&*]+'
-              aria-describedby='password-criteria'
+              autocomplete='new-password' aria-describedby='password-criteria'
             >
           </div>
 
