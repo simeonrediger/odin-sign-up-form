@@ -38,14 +38,14 @@
           <div class='form-component'>
             <label for='first-name'>First name</label>
             <input name='first-name' id='first-name' type='text' required
-              placeholder='First'
+              placeholder='First' pattern='.*\S.*'
             >
           </div>
 
           <div class='form-component'>
             <label for='last-name'>Last name</label>
             <input name='last-name' id='last-name' type='text' required
-              placeholder='Last'
+              placeholder='Last' pattern='.*\S.*'
             >
           </div>
 
@@ -53,12 +53,14 @@
             <label for='email'>Email</label>
             <input name='email' id='email' type='email' required
               placeholder='your@email.com'
+              pattern='[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}'
             >
           </div>
 
           <div class='form-component'>
             <label for='phone'>Phone number</label>
-            <input name='phone' id='phone' type='tel' placeholder='12345678910'
+            <input name='phone' id='phone' type='tel'
+              placeholder='+1 (234) 567-8910'
             >
           </div>
 
