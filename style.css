@@ -188,7 +188,7 @@ input::placeholder {
 }
 
 input[type='password']::placeholder {
-  font-size: 1.375rem;
+  font-weight: bold;
 }
 
 input:focus {
