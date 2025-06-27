@@ -43,6 +43,7 @@ html {
   --focus-border: var(--blue);
   --error: var(--red);
   --required: var(--light-gray);
+  --placeholder: var(--light-gray);
 
   --form-column-gap: 4rem;
   --input-width: 20rem;
@@ -173,6 +174,10 @@ input {
   font-size: inherit;
   padding: 0.375rem;
   width: var(--input-width);
+}
+
+input::placeholder {
+  color: var(--placeholder);
 }
 
 input:focus {
