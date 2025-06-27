@@ -217,7 +217,5 @@ input:user-invalid {
 }
 
 .create-account-button:active {
-  box-shadow:
-    2px 2px 8px var(--shadow),
-    2px 2px 8px #555 inset;
+  box-shadow: 2px 2px 8px #555 inset;
 }
