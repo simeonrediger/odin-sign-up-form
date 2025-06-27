@@ -181,7 +181,7 @@ input:focus {
   outline: none;
 }
 
-input:invalid {
+input:user-invalid {
   border-color: var(--error);
 }
 
