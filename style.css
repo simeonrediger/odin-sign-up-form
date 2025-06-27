@@ -62,12 +62,19 @@ body {
 header {
   color: var(--header-fg);
   display: flex;
+  flex: 37;
   flex-direction: column;
-  min-width: 37vw;
 
   background-image: url('images/fern.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+main {
+  display: flex;
+  flex: 63;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .logo-and-title {
@@ -95,12 +102,6 @@ header {
 
 header a {
   color: inherit;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 main a {
@@ -136,6 +137,7 @@ section.form {
 
 section > p {
   margin-block: 1rem;
+  max-width: 55ch;
 }
 
 section.form > p {
