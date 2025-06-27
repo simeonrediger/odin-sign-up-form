@@ -134,7 +134,7 @@ section.form {
   padding-bottom: 2rem;
 }
 
-p {
+section > p {
   margin-block: 1rem;
 }
 
@@ -197,6 +197,14 @@ input:focus {
 
 input:user-invalid {
   border-color: var(--error);
+}
+
+#password-criteria {
+  color: var(--gray);
+}
+
+.monospaced {
+  font-family: monospace;
 }
 
 .create-account-button {

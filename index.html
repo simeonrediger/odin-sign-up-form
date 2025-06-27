@@ -69,6 +69,7 @@
             <input name='password' id='password' type='password'
               placeholder='••••••••' required minlength='8'
               pattern='(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[a-zA-Z\d!@#$%^&*]+'
+              aria-describedby='password-criteria'
             >
           </div>
 
@@ -77,8 +78,16 @@
             <input name='confirm-password' id='confirm-password' type='password'
               placeholder='••••••••' required minlength='8'
               pattern='(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[a-zA-Z\d!@#$%^&*]+'
+              aria-describedby='password-criteria'
             >
           </div>
+
+          <p id='password-criteria'>
+            Password must be at least 8 characters long; must contain a
+            lowercase letter, an uppercase letter, a digit, and any of these
+            special characters (<span class='monospaced'>!@#$%^&amp;*</span>);
+            and must not contain any other types of characters.
+          </p>
         </form>
       </section>
 
