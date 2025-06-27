@@ -1,2 +1,0 @@
-- Style login link hover state
-- Cap width of description section
