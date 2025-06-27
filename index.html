@@ -39,6 +39,7 @@
             <label for='first-name'>First name</label>
             <input name='first-name' id='first-name' type='text' required
               placeholder='First' pattern='.*\S.*' autocomplete='given-name'
+              aria-required='true'
             >
           </div>
 
@@ -46,6 +47,7 @@
             <label for='last-name'>Last name</label>
             <input name='last-name' id='last-name' type='text' required
               placeholder='Last' pattern='.*\S.*' autocomplete='family-name'
+              aria-required='true'
             >
           </div>
 
@@ -54,7 +56,7 @@
             <input name='email' id='email' type='email' required
               placeholder='your@email.com'
               pattern='[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}'
-              autocomplete='email'
+              autocomplete='email' aria-required='true'
             >
           </div>
 
@@ -71,6 +73,7 @@
               placeholder='••••••••' required minlength='8'
               pattern='(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[a-zA-Z\d!@#$%^&*]+'
               autocomplete='new-password' aria-describedby='password-criteria'
+              aria-required='true'
             >
           </div>
 
@@ -80,6 +83,7 @@
               placeholder='••••••••' required minlength='8'
               pattern='(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[a-zA-Z\d!@#$%^&*]+'
               autocomplete='new-password' aria-describedby='password-criteria'
+              aria-required='true'
             >
           </div>
 
